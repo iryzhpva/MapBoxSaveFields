@@ -1,0 +1,178 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:id="@+id/dialogAddCultureSort">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="22dp"
+            android:layout_marginTop="21dp"
+            android:text="Поздравляем!"
+            android:textColor="@color/C454545"
+            android:textSize="23dp"
+            android:textStyle="bold"
+            android:layout_marginLeft="22dp" />
+
+        <TextView
+            android:id="@+id/alert_add_namefield"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="22dp"
+            android:layout_marginTop="15dp"
+            android:text="Вы добавили \n поле"
+            android:textColor="@color/C222222"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:layout_marginLeft="22dp" />
+
+
+        <TableLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <TableRow
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="22dp"
+                android:layout_marginTop="15dp"
+                android:text="string/square"
+                android:textColor="@color/C626262"
+                android:textSize="14sp"
+                android:visibility="gone"
+                android:layout_marginLeft="22dp" />
+                <TextView
+                    android:id="@+id/id_alert_square"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="17dp"
+                    android:layout_marginTop="15dp"
+                    android:text="string/noinf"
+                    android:textColor="@color/C626262"
+                    android:textSize="14sp"
+                    android:visibility="gone"
+                    android:layout_marginLeft="17dp" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="22dp"
+                    android:layout_marginTop="5dp"
+                    android:text="Дата посева"
+                    android:textColor="@color/C626262"
+                    android:textSize="14sp"
+                    android:layout_marginLeft="22dp" />
+                <TextView
+                    android:id="@+id/id_alert_date"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="17dp"
+                    android:layout_marginTop="5dp"
+                    android:text="string/noinf"
+                    android:textColor="@color/C626262"
+                    android:textSize="14sp"
+                    android:layout_marginLeft="17dp" />
+            </TableRow>
+            <TableRow
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="22dp"
+                    android:layout_marginTop="5dp"
+                    android:text="Культура"
+                    android:textColor="@color/C626262"
+                    android:textSize="14sp"
+                    android:layout_marginLeft="22dp" />
+                <TextView
+                    android:id="@+id/id_alert_cult"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="17dp"
+                    android:layout_marginTop="5dp"
+                    android:text="string/noinf"
+                    android:textColor="@color/C626262"
+                    android:textSize="14sp"
+                    android:layout_marginLeft="17dp" />
+            </TableRow>
+            <TableRow
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="22dp"
+                    android:layout_marginTop="5dp"
+                    android:text="Сорт"
+                    android:textColor="@color/C626262"
+                    android:textSize="14sp"
+                    android:layout_marginLeft="22dp" />
+
+                <TextView
+                    android:id="@+id/id_alert_sort"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="17dp"
+                    android:layout_marginTop="5dp"
+                    android:text="string/noinf"
+                    android:textColor="@color/C626262"
+                    android:textSize="14sp"
+                    android:layout_marginLeft="17dp" />
+            </TableRow>
+
+        </TableLayout>
+
+        <TextView
+            android:id="@+id/id_alert_namehousehold"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="22dp"
+            android:layout_marginTop="13dp"
+            android:text="В хозяйство \n "
+            android:textColor="@color/C222222"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:layout_marginLeft="22dp" />
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/button_alert_ok"
+                android:layout_width="155dp"
+                android:layout_height="36dp"
+                android:layout_marginStart="16dp"
+                android:layout_marginTop="78dp"
+                android:layout_marginEnd="19dp"
+                android:layout_marginBottom="20dp"
+                android:layout_alignParentEnd="true"
+                android:background="@color/C16628"
+                android:text="Оk"
+                android:textSize="14dp"
+                android:textStyle="bold"
+                android:textColor="@color/white"
+                android:layout_marginLeft="16dp"
+                android:layout_marginRight="19dp"
+                android:layout_alignParentRight="true" />
+        </RelativeLayout>
+    </LinearLayout>
+
+
+
+
+
+</RelativeLayout>

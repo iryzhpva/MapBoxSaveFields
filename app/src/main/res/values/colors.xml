@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="purple_200">#FFBB86FC</color>
+    <color name="purple_500">#FF6200EE</color>
+    <color name="purple_700">#FF3700B3</color>
+    <color name="teal_200">#FF03DAC5</color>
+    <color name="teal_700">#FF018786</color>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <!-- Mapbox colors -->
+    <color name="colorPrimary">@color/mapboxBlue</color>
+    <color name="colorPrimaryDark">@color/mapboxBlueDark</color>
+    <color name="colorAccent">@color/mapboxRed</color>
+
+    <color name="materialGrey">#F5F5F5</color>
+    <color name="materialDarkGrey">#DFDFDF</color>
+
+    <color name="mapboxWhite">#ffffff</color>
+    <color name="mapboxCyan">#3BB2D0</color>
+    <color name="mapboxGreen">#56B881</color>
+    <color name="mapboxBlue">#3887BE</color>
+    <color name="mapboxBlueDark">#1F6EA5</color>
+    <color name="mapboxPurple">#8A8ACB</color>
+    <color name="mapboxPurpleDark">#7171b2</color>
+    <color name="mapboxPurpleLight">#A4A4E5</color>
+
+    <color name="mapboxDenim">#50667F</color>
+    <color name="mapboxTeal">#41AFA5</color>
+    <color name="mapboxOrange">#F9886C</color>
+    <color name="mapboxRed">#E55E5E</color>
+    <color name="mapboxPink">#ED6498</color>
+    <color name="mapboxYellow">#f1f075</color>
+    <color name="mapboxMustard">#FBB03B</color>
+    <color name="mapboxNavy">#28353D</color>
+    <color name="mapboxNavyDark">#222B30</color>
+
+    <!-- FAB menu colors -->
+    <color name="black_semi_transparent">#B2000000</color>
+    <color name="half_black">#808080</color>
+    <color name="white_pressed">#f1f1f1</color>
+
+    <color name="field_green">#2DFF32</color>
+    <color name="field_yellow">#F1BE04</color>
+    <color name="field_red">#FF2D2D</color>
+
+    <color name="button_negative">#D54936</color>
+    <color name="button_positive">#76A632</color>
+
+    <color name="C16628">#1C6628</color>
+    <color name="C747474">#747474</color>
+    <color name="F5F5F5">#F5F5F5</color>
+    <color name="C222222">#222222</color>
+    <color name="E1FFBB">#E1FFBB</color>
+    <color name="C3C13B">#3CC13B</color>
+    <color name="C454545">#454545</color>
+    <color name="C626262">#626262</color>
+    <color name="E8E8E8">#E8E8E8</color>
+    <color name="FF0000">#FF0000</color>
+    <color name="C115720">#115720</color>
+
+</resources>

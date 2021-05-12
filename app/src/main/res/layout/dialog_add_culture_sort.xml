@@ -1,0 +1,115 @@
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:id="@+id/dialogAddCultureSort">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="22dp"
+            android:layout_marginTop="21dp"
+            android:text="Добавить поле"
+            android:textColor="@color/C454545"
+            android:textSize="23sp"
+            android:textStyle="bold"
+            android:layout_marginLeft="22dp" />
+
+        <EditText
+            android:id="@+id/id_namefield"
+            android:maxLines="1"
+            android:inputType="text"
+            android:layout_width="326dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="23dp"
+            android:layout_marginTop="22dp"
+            android:fontFamily="sans-serif"
+            android:textSize="20sp"
+            android:hint="Укажите название поля"
+            android:textColor="@color/C222222"
+            android:layout_marginLeft="23dp" />
+
+        <Spinner
+            android:id="@+id/spinner_culture"
+            android:layout_width="326dp"
+            android:layout_height="match_parent"
+            android:layout_marginStart="23dp"
+            android:layout_marginTop="35dp"
+            android:layout_marginEnd="91dp"
+            android:textColor="@color/C222222"
+            android:layout_marginLeft="23dp"
+            android:layout_marginRight="91dp">
+        </Spinner>
+
+
+        <EditText
+            android:id="@+id/id_editsort"
+            android:maxLines="1"
+            android:inputType="text"
+            android:layout_width="326dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="23dp"
+            android:layout_marginTop="22dp"
+            android:textSize="20sp"
+            android:fontFamily="sans-serif"
+            android:hint="Укажите сорт"
+            android:textColor="@color/C222222"
+            android:layout_marginLeft="23dp" />
+
+        <TextView
+            android:id="@+id/id_editdate"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="22dp"
+            android:text="Установить дату посева"
+            android:textColor="@color/C747474"
+            android:textSize="18sp" />
+
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginBottom="20dp"
+            android:layout_marginEnd="18dp"
+            android:orientation="horizontal"
+            android:layout_alignParentEnd="true"
+            android:layout_marginTop="33dp"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="18dp">
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/button_cancelindialogalert"
+                android:layout_width="155dp"
+                android:layout_height="36dp"
+                android:background="@color/E8E8E8"
+                android:text="Отмена"
+                android:textSize="14dp"
+                android:textStyle="bold"
+                android:textColor="@color/black" />
+
+            <androidx.appcompat.widget.AppCompatButton    android:id="@+id/button_saveindialogalert"
+                android:layout_width="155dp"
+                android:layout_height="36dp"
+                android:layout_marginStart="16dp"
+                android:background="@color/C16628"
+                android:text="Сохранить"
+                android:textSize="14dp"
+                android:textStyle="bold"
+                android:textColor="@color/white"
+                android:layout_marginLeft="16dp" />
+        </LinearLayout>
+        </RelativeLayout>
+    </LinearLayout>
+
+</RelativeLayout>

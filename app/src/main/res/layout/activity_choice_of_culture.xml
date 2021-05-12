@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ChoiceOfCultureActivity">
+
+    <ImageView
+        android:id="@+id/arrowBack"
+        android:layout_width="25dp"
+        android:layout_height="25dp"
+        android:background="@drawable/arrow_back"
+        android:layout_marginBottom="30dp"
+        android:layout_marginTop="36dp"
+        android:layout_marginLeft="35dp"
+        android:layout_marginStart="35dp" />
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/id_recycler_culture"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/arrowBack"/>
+
+</RelativeLayout>
